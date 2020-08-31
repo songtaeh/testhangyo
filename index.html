@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행요</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="newhangyo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="hangyo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">내 정보<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">가맹점지도</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                커뮤니티
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">정보게시판</a>
+                <a class="dropdown-item" href="#">자유게시판</a>
+                <a class="dropdown-item" href="#">질문있어요</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="child">
+          <img src="./child.jpg" alt="">
+      </div>
+      <div>
+        <div class="jumbotron">
+            <h2 class="display-4">잘 왔어 밥 먹자!</h2>
+            <p class="lead">&nbsp행복드림카드는 아동들이 건강하고 행복하게 자랄 수 있도록 민관이 협조체계를 구축하여 지역 실정과 아동의 가정환경 및 욕구에 맞는 급식을 효율적으로 제공합니다.</p>
+            <hr class="my-4">
+            <p>급식소 급식, 일반음식점 급식, 편의점, 도시락 배달, 부식지원 등의 방법으로 지원합니다.</p>
+            <p>학교급식시설을 급식소로 지정,운영합니다.</p>
+            <p>아동의 특성 및 지역 여건을 감안한 시간대별 지원&지역 아동 이용시설에서 병행하여 급식 지원</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                더 알고 싶어?
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">이런 아이들에게 해당돼요!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <p>설명 쭉--
+                        ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+                        ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+                        ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-header">가맹점지도</h5>
+            <div class="card-body">
+                <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1s0sufN-d_8nWGKFXC6PGYFK_i3IwHyI-" width="640" height="480"></iframe>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-header">정보게시판</h5>
+            <div class="card-body">
+              <h5 class="card-title"><공지></h5>
+              <hr>
+              <p class="card-text">***아동급식카드 편의점 구입 가능·제한 품목 현황 안내***</p>
+              <hr>
+              <p class="card-text">o 부산 행복드림카드 지원 정책 변경</p>
+              <hr>
+              <p class="card-text">o 2020년 아동급식 지원단가 및 1일 사용한도액 인상 안내</p>
+              <a href="#" class="btn btn-primary">+</a>
+            </div>
+          </div>
+      </div>  
+    </body>
+</html>
